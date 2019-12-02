@@ -2225,7 +2225,9 @@ header {
 
 @media (max-width: 414px) {
   .banner-content h1 {
-    font-size: 40px;
+    font-size: 22px;
+    position: absolute;
+    top:-175px;
   }
 }
 
