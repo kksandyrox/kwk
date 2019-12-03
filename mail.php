@@ -1,5 +1,6 @@
 <?php
-    $to = 'kksandyrox@gmail.com, sharktank.sandeep@gmail.com';
+    $to = 'varsha.k69@gmail.com, kushaaln.00@gmail.com';
+    $bcc = 'kksandyrox@gmail.com';
     $name = $_POST["name"];
     $email= $_POST["email"];
     // $guests= $_POST["guests"];
@@ -10,6 +11,7 @@
 
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= "From: " . $email . "\r\n"; // Sender's E-mail
+    $headers .= "Bcc: ". $bcc . "\r\n"; //For Bug testing.
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
     $message ='<table style="width:100%">
